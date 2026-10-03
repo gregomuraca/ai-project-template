@@ -1,8 +1,8 @@
 # Useful AI Stuff
 
-Practical AI skills, templates, workflows, and small tools I use and share freely.
+Practical AI skills, templates, workflows, and small tools I use and share.
 
-This repository is intentionally selective. It is not a prompt dump. Each artifact should encode a repeatable method, solve a real problem, and be usable without private project context.
+This is not a prompt dump. Each artifact encodes a repeatable method, solves a real problem, and works without private project context.
 
 ## Structure
 
@@ -24,40 +24,42 @@ useful-ai-stuff/
 
 ## Maturity
 
-Artifacts should identify themselves as one of:
+Each artifact has one maturity level:
 
-- **stable** — used repeatedly and behavior is understood;
-- **tested** — useful in real work but still evolving;
-- **prototype** — functional enough to explore;
-- **discovery** — documented idea or experiment, not a production recommendation.
+- **stable** — used repeatedly; behavior is well understood.
+- **tested** — useful in real work but still evolving.
+- **prototype** — functional enough to test and explore.
+- **discovery** — an idea or experiment, not a production recommendation.
 
 ## Current collection
 
 ### Skills
 
-- **Zinsser Editor** — nonfiction editing for clarity, structure, precision, voice, and restraint.
-- **No Slop** — detects and removes synthetic, generic, over-engineered AI writing without flattening the author's voice.
+- **Zinsser Editor** — edits nonfiction for clarity, structure, precision, voice, and restraint.
+- **No Slop** — removes generic, synthetic, and over-engineered AI writing without flattening the author's voice.
 - **Execution Discipline** — keeps agents focused on concrete deliverables, verification, recovery, and explicit completion.
 
 ### Templates
 
-- **Agent Project** — durable project memory for architecture, decisions, current state, and roadmap.
+- **Agent Project** — maintains durable project memory for architecture, decisions, current state, and roadmap.
 
 ### Workflows
 
-- **Claude + Codex Collaboration** — separates implementation from adversarial review and uses explicit gates between phases.
-- **Human-in-the-Loop Agent** — approval boundaries for agents that read, recommend, draft, and take external actions.
+- **Claude + Codex Collaboration** — separates implementation from adversarial review, with explicit gates between phases.
+- **Human-in-the-Loop Agent** — defines approval boundaries for agents that read, recommend, draft, or take external actions.
 
 ## Principles
 
 1. **Useful beats clever.**
 2. **Canonical instructions live once.**
-3. **Agents should distinguish analysis from execution.**
+3. **Separate analysis from execution.**
 4. **Verification is part of completion.**
-5. **Human approval is required before consequential external actions unless authority was explicitly delegated.**
-6. **Good skills preserve context, uncertainty, and voice instead of normalizing everything.**
+5. **Require human approval before consequential external actions unless authority has been explicitly delegated.**
+6. **Preserve context, uncertainty, and voice instead of normalizing everything.**
 7. **A skill should know when not to act.**
 
 ## Contributing
 
-Keep contributions small and testable. Remove private data, credentials, account identifiers, client-specific material, and proprietary information before publishing.
+Keep contributions small and testable.
+
+Before publishing, remove private data, credentials, account identifiers, client-specific material, and proprietary information.
